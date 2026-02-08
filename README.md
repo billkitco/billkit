@@ -1,0 +1,1 @@
+Run ```chmod +x setup-dev.sh``` and then ```./setup-dev.sh```
