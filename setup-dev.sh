@@ -3,10 +3,10 @@ set -euo pipefail
 
 ROOT_DIR="${1:-$(pwd)}"
 
-FRONTEND_REPO="git@github.com:billkitco/billkit-frontend.git"
-BACKEND_REPO="git@github.com:billkitco/billkit-backend.git"
-BACKEND_ENV_REPO="git@github.com:billkitco/billkit-backend-env.git"
-FRONTEND_ENV_REPO="git@github.com:billkitco/billkit-frontend-env.git"
+FRONTEND_REPO="git@billkitco:billkitco/billkit-frontend.git"
+BACKEND_REPO="git@billkitco:billkitco/billkit-backend.git"
+BACKEND_ENV_REPO="git@billkitco:billkitco/billkit-backend-env.git"
+FRONTEND_ENV_REPO="git@billkitco:billkitco/billkit-frontend-env.git"
 
 clone_or_update() {
   local repo_url="$1"
